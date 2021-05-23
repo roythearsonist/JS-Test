@@ -1,3 +1,3 @@
 var x= 1;
 var y= x*x;
-document.write("Hello World");
+document.body.innerHTML("<div id='testdiv'>"+ y + "</div>");
